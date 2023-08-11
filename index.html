@@ -20,6 +20,8 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             padding: 20px;
             text-align: center;
+            width: 100%;
+            max-width: 400px; /* Set a maximum width for larger screens */
         }
         h1 {
             color: #fff;
@@ -30,14 +32,16 @@
             margin-bottom: 10px;
         }
         input {
-            width: 100px;
+            width: 100%;
             padding: 6px;
             border: 1px solid #555;
             border-radius: 4px;
             background-color: #222;
             color: #fff;
+            box-sizing: border-box;
         }
         button {
+            width: 100%;
             padding: 10px 20px;
             background-color: #007bff;
             color: #fff;

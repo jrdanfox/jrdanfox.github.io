@@ -22,6 +22,7 @@
             text-align: center;
             width: 100%;
             max-width: 400px; /* Set a maximum width for larger screens */
+            box-sizing: border-box;
         }
         h1 {
             color: #fff;
@@ -33,7 +34,7 @@
         }
         input {
             width: 100%;
-            padding: 6px;
+            padding: 10px;
             border: 1px solid #555;
             border-radius: 4px;
             background-color: #222;
@@ -42,7 +43,7 @@
         }
         button {
             width: 100%;
-            padding: 10px 20px;
+            padding: 12px;
             background-color: #007bff;
             color: #fff;
             border: none;
@@ -102,6 +103,7 @@
         <h1>Barbell Weight Calculator</h1>
         <label for="weightInput">Enter desired weight (pounds):</label>
         <input type="number" id="weightInput" step="0.01">
+        <br></br>
         <button onclick="calculateWeights()">Calculate</button>
         <div id="result"></div>
     </div>
